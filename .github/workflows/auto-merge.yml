@@ -2,7 +2,7 @@ name: Auto Merge Daily PRs
 
 on:
   schedule:
-    - cron: '45 3 * * *' # 매일 08:00 KST (UTC 23:00)
+    - cron: '50 8 * * *' # 매일 08:00 KST (UTC 23:00)
   workflow_dispatch:
 jobs:
   auto-merge:
